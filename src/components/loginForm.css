@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.form-inner{
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    opacity: 99%;
+    max-width: 260px;
+    margin: 140px auto 90px;
+    padding: 10px 45px 30px 45px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+    border-radius: 10px
+
+}
+
+.form-inner-sign{
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    opacity: 99%;
+    max-width: 260px;
+    margin-top: 50px;
+    margin-left: 500px;
+    padding: 10px 45px 30px 45px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+    border-radius: 10px
+}
+
+.form-inner-sign input{
+    outline: 0;
+    border-radius: 10px;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+/* .form-inner h2{
+    font-size: 15px;
+    padding: 1px;
+    text-align: center;
+} */
+
+.form-inner input{
+    outline: 0;
+    border-radius: 10px;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form-inner input:hover{
+    background-color: #D3F8F9;
+    transition: all 1s ease 0s;
+}
+
+.form-group button{
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #1ADB;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+} 
+
+.error{
+    color: red;
+}
+
+.signup button{
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: rgb(64, 150, 64);
+    width: 100%;
+    opacity: 99%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form-inner-sign input:hover{
+    background-color: #D3F8F9;
+    transition: all 1s ease 0s;
+}
+
+.form-group-sign button{
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #1ADB;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}

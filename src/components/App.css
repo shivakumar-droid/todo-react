@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  margin-top: 30px;
+  font-size: medium;
+  background-color: #3f3160;
+  box-shadow: 0 0 5px rgba(0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+  min-height: 500px;
+  width: 400px;
+  margin-top: 0px;
+  margin: 40px auto;
+  border-radius: 30px;
+}
+
+.logout button{
+  float: right;
+  margin-right: 20px;
+    margin-left: 10px;
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+  border-color: rgb(202,156,24);
+  background-color: rgb(202,156,24);
+  cursor: pointer;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.logout{
+  display: inline-flexbox;
+  margin-right: 50px;
+  text-align: right;
+}
+
+.header h1{
+  margin-left: 220px;
+}
+
+.App button{
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  border-color: rgb(202,156,24);
+  background-color: rgb(202,156,24);
+  cursor: pointer;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.list{
+  color: #fff;
+  width: 300px;
+  background-color: #bf07ac;
+  min-height: 50px;
+  margin: 20px auto;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.list input{
+  align-self: initial;
+}
+
+body{
+  background-color: #9266ff;
+  text-align: center;
+}
+
+.addtodo{
+  min-height: 500px;
+  width: 400px;
+  margin-top: 0px;
+  margin: 40px auto;
+  border-radius: 30px;
+}
+
+#to-do-form{
+  min-height: 20px;
+  width: 400px;
+  margin: 40px auto;
+  margin-bottom: 0px;
+  border-radius: 30px;
+}
+
+#to-do-form input{
+  background-color: rgb(27,112,137);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #ffff;
+}
+
+#to-do-form input::placeholder{
+  font-weight: bolder;
+  color: grey;
+  font-size: medium;
+}
+
+#to-do-form input:focus,#to-do-form button:focus{
+  outline: none;
+}
+
+#to-do-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  border-color: rgb(202,156,24);
+  background-color: rgb(202,156,24);
+  cursor: pointer;
+  font-weight: bolder;
+  color: #fff;
+}
+
+registerTip label{
+  display: inline-block;
+  margin-left: 0px;
+}

@@ -1,0 +1,53 @@
+.list p{
+     font-size: larger;
+     padding: 10px;
+  }
+
+  .list p Checkbox{
+      position: initial;
+  }
+
+  .list EditIcon{
+    cursor: pointer;
+  }
+
+  .list DeleteIcon{
+    cursor: pointer;
+  }
+
+  .list{
+   color: #fff;
+   width: 300px;
+   background-color: #bf07ac;
+   height: 50px;
+   margin: 10px auto;
+   border-radius: 5px;
+ }
+ 
+ 
+ .list p span{
+   position: absolute;
+   left: 10px;
+   cursor: pointer;
+   size: 20px;
+   margin: 10px auto;
+   font-size: 15px;
+   color: white;
+ }
+
+ 
+ .list p{
+   padding: 10px;
+   position:relative;
+   text-align: center;
+   font-size: 18px;
+   font-weight: bolder;
+   display: block;
+ }
+
+ .list Checkbox{
+    position: absolute;
+    left: 10px;
+    cursor: pointer;
+    size: 20px;
+ }

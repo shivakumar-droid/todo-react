@@ -1,0 +1,132 @@
+
+.editform{
+    text-align: left;
+    margin-left: 210px;
+    margin-top: 40px;
+}
+
+.image img{
+    float: left;
+    margin-left: 0px;
+    margin-top: 10px;
+    display: inline;
+}
+
+.image button{
+    margin-top: 30px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: rgb(34, 139, 34);
+}
+
+.editform label{
+    margin-left: 0px;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.editform input{
+    margin-left: 10px;
+    align-items: flex-start;
+    height: 20px;
+    width: 200px;
+    float: right;
+}
+
+.editform button{
+    margin-left: 100px;
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: rgb(34, 139, 34);
+    margin-bottom: 10px;
+}
+.editform EditIcon{
+    margin-left: 90px;
+}
+
+.head label{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.head button{
+    margin-left: 10px;
+}
+.head{
+    text-align: left;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+.image{
+    margin-left: 1px;
+    margin-top: 10px;
+    float: left;
+}
+.image img{
+    float: right;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 100px;
+    border-color: black;
+}
+
+.details{
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: left;
+    display: inline;
+}
+
+.details label{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.profile{
+    width: 100%;
+    height: 100%; 
+    text-align: left;
+    margin-left: 210px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.user{
+    margin-top: 70px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-family: monospace;
+    padding-left: 70px;
+    padding-right: 10px;
+    border: 1px solid #f8faf8;
+    background-color: rgb(221, 217, 217);
+    box-shadow: 0 0 5px rgba(0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+    border-radius: 10px;
+}
+
+.back button{
+    margin-left: 1200px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: rgb(238, 44, 10);
+}
+
+.head EditIcon{
+    position: fixed;
+}
+
+
+
+
+
+
